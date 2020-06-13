@@ -1,0 +1,15 @@
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/ui/UserIOConsoleImpl.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/com/cam/classroster/App.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/dao/ClassRosterDao.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/service/ClassRosterServiceLayerImpl.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/service/ClassRosterDuplicateIdException.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/service/ClassRosterDataValidationException.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/ui/ClassRosterView.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/controller/ClassRosterController.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/ui/UserIO.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/dto/Student.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/dao/ClassRosterAuditDaoFileImpl.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/dao/ClassRosterAuditDao.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/service/ClassRosterServiceLayer.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/dao/ClassRosterPersistenceException.java
+/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-classwork-Chel0cean/PracticeProgrammingM2/classRoster/src/main/java/dao/ClassRosterDaoFileImpl.java

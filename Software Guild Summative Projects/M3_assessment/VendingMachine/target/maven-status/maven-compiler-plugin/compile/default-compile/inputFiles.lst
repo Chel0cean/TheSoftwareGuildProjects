@@ -1,0 +1,16 @@
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/controller/VendingMachineController.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/dto/Item.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/service/VendingMachineServiceLayerImpl.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/dao/VendingMachineDaoFileImpl.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/com/cam/vendingmachine/App.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/service/VendingMachineDataValidationException.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/service/VendingMachineDuplicateIdException.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/dao/VendingMachineDao.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/dao/VendingMachineAuditDaoFileImpl.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/ui/UserIOConsoleImpl.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/ui/VendingMachineView.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/service/VendingMachineServiceLayer.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/ui/UserIO.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/dao/VendingMachinePersistenceException.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/dao/VendingMachineAuditDao.java
+/Users/chelseamiller/Desktop/VendingMachine/src/main/java/dto/Change.java

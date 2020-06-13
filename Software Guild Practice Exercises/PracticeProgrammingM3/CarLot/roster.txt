@@ -1,0 +1,2 @@
+1::Toyota::Corolla::blue::25000::0::
+2::Honda::Civic::white::27000::0::
