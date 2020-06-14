@@ -115,12 +115,28 @@ public class VendingMachineView {
     }
 
     public int promptInventoryCountUpdate() {
-        int update = io.readInt("Please enter the Item's inventory count:");
+        int update = 0;
+        do {
+            try {
+                update = io.readInt("Please enter the Item's inventory count:");
+                return update;
+            } catch (NumberFormatException e) {
+                io.print("Entry is invalid, must be numerical.");
+            }
+        } while (update == 0);
         return update;
     }
 
     public BigDecimal promptCostUpdate() {
-        BigDecimal update = io.readBigDecimal("Please enter the Item's cost:");
+        BigDecimal update = null;
+        do {
+            try {
+                update = io.readBigDecimal("Please enter the Item's cost:");
+                return update;
+            } catch (NumberFormatException e) {
+                io.print("Entry is invalid, must be numerical.");
+            }
+        } while (update.equals(null));
         return update;
     }
 
