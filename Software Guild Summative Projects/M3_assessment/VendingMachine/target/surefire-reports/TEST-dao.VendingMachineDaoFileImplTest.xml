@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="dao.VendingMachineDaoFileImplTest" time="0.188" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="dao.VendingMachineDaoFileImplTest" time="0.379" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/chelseamiller/Desktop/VendingMachine/target/test-classes:/Users/chelseamiller/Desktop/VendingMachine/target/classes:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/chelseamiller/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:"/>
+    <property name="java.class.path" value="/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-summative-m1-Chel0cean/M3_assessment/VendingMachine/target/test-classes:/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-summative-m1-Chel0cean/M3_assessment/VendingMachine/target/classes:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/chelseamiller/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:"/>
     <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
@@ -16,11 +16,11 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/chelseamiller/Desktop/VendingMachine/target/surefire/surefirebooter15024121758232984343.jar /Users/chelseamiller/Desktop/VendingMachine/target/surefire 2020-06-13T01-50-09_895-jvmRun1 surefire3633879285592716752tmp surefire_05885791071910802757tmp"/>
+    <property name="sun.java.command" value="/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-summative-m1-Chel0cean/M3_assessment/VendingMachine/target/surefire/surefirebooter16999249211855371496.jar /Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-summative-m1-Chel0cean/M3_assessment/VendingMachine/target/surefire 2020-06-13T20-38-57_045-jvmRun1 surefire998545551876185290tmp surefire_03205606980379900008tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="dao.VendingMachineDaoFileImplTest"/>
-    <property name="surefire.test.class.path" value="/Users/chelseamiller/Desktop/VendingMachine/target/test-classes:/Users/chelseamiller/Desktop/VendingMachine/target/classes:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/chelseamiller/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-summative-m1-Chel0cean/M3_assessment/VendingMachine/target/test-classes:/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-summative-m1-Chel0cean/M3_assessment/VendingMachine/target/classes:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/chelseamiller/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/chelseamiller"/>
     <property name="user.language" value="en"/>
@@ -28,13 +28,13 @@
     <property name="java.version.date" value="2020-01-14"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/chelseamiller/Desktop/VendingMachine"/>
+    <property name="basedir" value="/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-summative-m1-Chel0cean/M3_assessment/VendingMachine"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/chelseamiller/Desktop/VendingMachine/target/surefire/surefirebooter15024121758232984343.jar"/>
+    <property name="surefire.real.class.path" value="/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-summative-m1-Chel0cean/M3_assessment/VendingMachine/target/surefire/surefirebooter16999249211855371496.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.6+10"/>
@@ -50,7 +50,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/5w/07dtpp817v57_9r38bk44pl40000gn/T/"/>
     <property name="java.version" value="11.0.6"/>
-    <property name="user.dir" value="/Users/chelseamiller/Desktop/VendingMachine"/>
+    <property name="user.dir" value="/Users/chelseamiller/Desktop/Repos/Java/java-lagcc-apr20-summative-m1-Chel0cean/M3_assessment/VendingMachine"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -63,8 +63,8 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testEditItem" classname="dao.VendingMachineDaoFileImplTest" time="0.111"/>
-  <testcase name="testGetAllItems" classname="dao.VendingMachineDaoFileImplTest" time="0.009"/>
-  <testcase name="testRemoveItem" classname="dao.VendingMachineDaoFileImplTest" time="0.006"/>
-  <testcase name="testAddGetItem" classname="dao.VendingMachineDaoFileImplTest" time="0.004"/>
+  <testcase name="testEditItem" classname="dao.VendingMachineDaoFileImplTest" time="0.234"/>
+  <testcase name="testGetAllItems" classname="dao.VendingMachineDaoFileImplTest" time="0.024"/>
+  <testcase name="testRemoveItem" classname="dao.VendingMachineDaoFileImplTest" time="0.011"/>
+  <testcase name="testAddGetItem" classname="dao.VendingMachineDaoFileImplTest" time="0.009"/>
 </testsuite>

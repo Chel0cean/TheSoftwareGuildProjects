@@ -83,12 +83,10 @@ public class VendingMachineDaoFileImplTest {
         BigDecimal oldCost = new BigDecimal("2.00");
         item.setInventoryCount(oldInventoryCount);
         item.setCost(oldCost);
-        testDao.addItem(name, item);
 
-        VendingMachineDaoFileImpl instance = new VendingMachineDaoFileImpl();
-        instance.editItem(name, item);
+        testDao.editItem(name, item);
 
-        assertEquals(instance.getItem(name), item, "checking to see if Cupcakes is still the same in the file");
+        assertEquals(testDao.getItem(name), item, "checking to see if Cupcakes is still the same in the file");
 
     }
 

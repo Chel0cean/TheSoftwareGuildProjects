@@ -6,6 +6,7 @@ import dao.VendingMachineAuditDao;
 import dao.VendingMachineAuditDaoFileImpl;
 import dao.VendingMachineDao;
 import dao.VendingMachineDaoFileImpl;
+import dao.VendingMachinePersistenceException;
 import service.VendingMachineDataValidationException;
 import service.VendingMachineOutOfStockException;
 import service.VendingMachineServiceLayer;
@@ -19,7 +20,7 @@ import ui.VendingMachineView;
  * @author chelseamiller
  */
 public class App {
-    public static void main(String[] args) throws VendingMachineDataValidationException, VendingMachineOutOfStockException {
+    public static void main(String[] args) throws VendingMachineDataValidationException, VendingMachineOutOfStockException, VendingMachinePersistenceException {
         // Instantiate the UserIO implementation
         UserIO myIo = new UserIOConsoleImpl();
         // Instantiate the View and wire the UserIO implementation into it
