@@ -42,10 +42,10 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao {
     }
 
     @Override
-    public void editItem(String name, Item item) throws VendingMachinePersistenceException {
+    public void editItem(String oldName, Item newItem) throws VendingMachinePersistenceException {
         loadRoster();
-        items.remove(name);
-        items.put(name, item);
+        items.remove(oldName);
+        items.put(newItem.getName(), newItem);
         writeRoster();
 
     }

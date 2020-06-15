@@ -66,14 +66,14 @@ public class VendingMachineServiceLayerImpl implements
     }
 
     @Override
-    public void editItem(String name, Item item) throws VendingMachineOutOfStockException,
+    public void editItem(String oldName, Item newItem) throws VendingMachineOutOfStockException,
             VendingMachineDataValidationException,
             VendingMachinePersistenceException {
 
-        dao.editItem(item.getName(), item);
+        dao.editItem(oldName, newItem);
 
         auditDao.writeAuditEntry(
-                "Item " + item.getName() + " Edited.");
+                "Item " + newItem.getName() + " Edited.");
     }
 
     @Override

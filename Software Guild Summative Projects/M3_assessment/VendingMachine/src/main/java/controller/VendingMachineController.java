@@ -303,7 +303,7 @@ public class VendingMachineController {
                 int editMenuSelection = getEditMenuSelection();
                 switch (editMenuSelection) {
                     case 1:
-                        updateName(editedItem);
+                        updateName(item);
                         editingItem = view.promptToContinueEditing();
                         break;
                     case 2:
@@ -356,12 +356,13 @@ public class VendingMachineController {
     //------------All 3 functions used in edit menu---------------------
     //
     //
-    public void updateName(String editedItem) throws VendingMachinePersistenceException, VendingMachineOutOfStockException, VendingMachineDataValidationException {
-        String name = view.promptNameUpdate();
-        Item item = service.getItem(editedItem);
-        item.setName(name);
-        service.editItem(item.getName(), item);
-        view.displayNameUpdatedBanner(item.getName());
+    public void updateName(Item oldItem) throws VendingMachinePersistenceException, VendingMachineOutOfStockException, VendingMachineDataValidationException {
+        String oldName = oldItem.getName();
+         String newName = view.promptNameUpdate();
+        oldItem.setName(newName);
+        Item newItem = oldItem;
+        service.editItem(oldName, newItem);
+        view.displayNameUpdatedBanner(newItem.getName());
 
     }
 
