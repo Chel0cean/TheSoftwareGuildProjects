@@ -44,14 +44,8 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao {
     @Override
     public void editItem(String name, Item item) throws VendingMachinePersistenceException {
         loadRoster();
-        String itemName = name;
-        int inventoryCount = item.getInventoryCount();
-        BigDecimal cost = item.getCost();
-        items.remove(itemName);
-        Item currentItem = new Item(itemName);
-        currentItem.setInventoryCount(inventoryCount);
-        currentItem.setCost(cost);
-        items.put(itemName, currentItem);
+        items.remove(name);
+        items.put(name, item);
         writeRoster();
 
     }
