@@ -15,6 +15,55 @@ public class VendingMachineView {
     public VendingMachineView(UserIO io) {
         this.io = io;
     }
+    
+    //
+    //--------------------------All IO functions--------------------
+    //
+    //
+    
+    public void print(String msg){
+        io.print(msg);
+    }
+    public BigDecimal readBigDecimal(String prompt){
+       return io.readBigDecimal(prompt);  
+    } 
+
+    public double readDouble(String prompt){
+        return io.readDouble(prompt);
+    }
+
+    public double readDouble(String prompt, double min, double max){
+        return io.readDouble(prompt, min, max);
+    }
+
+    public float readFloat(String prompt){
+        return io.readFloat(prompt);
+    }
+
+    public float readFloat(String prompt, float min, float max){
+        return io.readFloat(prompt, min, max);
+    }
+
+    public int readInt(String prompt){
+        return io.readInt(prompt);
+    }
+
+    public int readInt(String prompt, int min, int max){
+        return io.readInt(prompt, min, max);
+    }
+
+    public long readLong(String prompt){
+        return io.readLong(prompt);
+    }
+
+    public long readLong(String prompt, long min, long max){
+        return io.readLong(prompt, min, max);
+    }
+
+    public String readString(String prompt){
+        return io.readString(prompt);
+    } 
+    
 
     //
     //--------------------------All Menus--------------------

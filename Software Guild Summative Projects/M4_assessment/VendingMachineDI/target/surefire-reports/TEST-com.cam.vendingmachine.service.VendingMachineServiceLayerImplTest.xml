@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.437" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.607" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/chelseamiller/Desktop/com.cam_VendingMachineDI_jar_1.0-SNAPSHOT/target/test-classes:/Users/chelseamiller/Desktop/com.cam_VendingMachineDI_jar_1.0-SNAPSHOT/target/classes:/Users/chelseamiller/.m2/repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/chelseamiller/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:"/>
+    <property name="java.class.path" value="/Users/chelseamiller/Desktop/VendingMachineDI/target/test-classes:/Users/chelseamiller/Desktop/VendingMachineDI/target/classes:/Users/chelseamiller/.m2/repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/chelseamiller/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:"/>
     <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
@@ -16,10 +16,10 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/chelseamiller/Desktop/com.cam_VendingMachineDI_jar_1.0-SNAPSHOT/target/surefire/surefirebooter10575743000339135720.jar /Users/chelseamiller/Desktop/com.cam_VendingMachineDI_jar_1.0-SNAPSHOT/target/surefire 2020-06-18T01-41-02_478-jvmRun1 surefire3731614761557736255tmp surefire_03876659780252721679tmp"/>
+    <property name="sun.java.command" value="/Users/chelseamiller/Desktop/VendingMachineDI/target/surefire/surefirebooter5567958627514760195.jar /Users/chelseamiller/Desktop/VendingMachineDI/target/surefire 2020-06-18T22-42-57_396-jvmRun1 surefire15579254436589361080tmp surefire_012185131658367022897tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/chelseamiller/Desktop/com.cam_VendingMachineDI_jar_1.0-SNAPSHOT/target/test-classes:/Users/chelseamiller/Desktop/com.cam_VendingMachineDI_jar_1.0-SNAPSHOT/target/classes:/Users/chelseamiller/.m2/repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/chelseamiller/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/chelseamiller/Desktop/VendingMachineDI/target/test-classes:/Users/chelseamiller/Desktop/VendingMachineDI/target/classes:/Users/chelseamiller/.m2/repository/org/springframework/spring-context/4.3.4.RELEASE/spring-context-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-aop/4.3.4.RELEASE/spring-aop-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-core/4.3.4.RELEASE/spring-core-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/chelseamiller/.m2/repository/org/springframework/spring-expression/4.3.4.RELEASE/spring-expression-4.3.4.RELEASE.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/chelseamiller/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/chelseamiller/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/chelseamiller"/>
     <property name="user.language" value="en"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2020-01-14"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/chelseamiller/Desktop/com.cam_VendingMachineDI_jar_1.0-SNAPSHOT"/>
+    <property name="basedir" value="/Users/chelseamiller/Desktop/VendingMachineDI"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/chelseamiller/Desktop/com.cam_VendingMachineDI_jar_1.0-SNAPSHOT/target/surefire/surefirebooter10575743000339135720.jar"/>
+    <property name="surefire.real.class.path" value="/Users/chelseamiller/Desktop/VendingMachineDI/target/surefire/surefirebooter5567958627514760195.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.6+10"/>
@@ -49,7 +49,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/5w/07dtpp817v57_9r38bk44pl40000gn/T/"/>
     <property name="java.version" value="11.0.6"/>
-    <property name="user.dir" value="/Users/chelseamiller/Desktop/com.cam_VendingMachineDI_jar_1.0-SNAPSHOT"/>
+    <property name="user.dir" value="/Users/chelseamiller/Desktop/VendingMachineDI"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
@@ -62,13 +62,13 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testEditItem" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.011"/>
+  <testcase name="testEditItem" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.029"/>
   <testcase name="testValidateInventory" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.002"/>
-  <testcase name="testGetItemUser" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.003"/>
-  <testcase name="testGetAllItems" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.002"/>
-  <testcase name="testPurchaseItem" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.002"/>
-  <testcase name="testGetItem" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.002"/>
-  <testcase name="testRemoveItem" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.006"/>
-  <testcase name="testCreateItem" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.006"/>
-  <testcase name="testGiveChange" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.005"/>
+  <testcase name="testGetItemUser" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.002"/>
+  <testcase name="testGetAllItems" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.004"/>
+  <testcase name="testPurchaseItem" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.004"/>
+  <testcase name="testGetItem" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.003"/>
+  <testcase name="testRemoveItem" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.002"/>
+  <testcase name="testCreateItem" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.002"/>
+  <testcase name="testGiveChange" classname="com.cam.vendingmachine.service.VendingMachineServiceLayerImplTest" time="0.008"/>
 </testsuite>

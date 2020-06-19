@@ -1,7 +1,7 @@
-com/cam/vendingmachine/dto/coins.class
 com/cam/vendingmachine/dto/Item.class
 com/cam/vendingmachine/dto/Change.class
 com/cam/vendingmachine/service/VendingMachineOutOfStockException.class
 com/cam/vendingmachine/dao/VendingMachinePersistenceException.class
 com/cam/vendingmachine/service/VendingMachineServiceLayer.class
 com/cam/vendingmachine/service/VendingMachineDataValidationException.class
+com/cam/vendingmachine/dto/coins.class
