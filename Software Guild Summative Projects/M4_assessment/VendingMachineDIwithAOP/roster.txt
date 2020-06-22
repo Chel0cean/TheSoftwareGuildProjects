@@ -1,0 +1,9 @@
+Water::16::1.00
+Sprite::20::1.20
+Cookies::20::0.75
+Chips::20::0.75
+Coke::20::1.20
+Pepsi::20::1.30
+Cupcakes::20::2.00
+Crackers::0::0.50
+Rootbeer::20::1.20
