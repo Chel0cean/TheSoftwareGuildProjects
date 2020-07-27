@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+2,Beelzequil,TX,4.45,Wood,500,5.15,4.75,2575.00,2375.00,220.28,5170.28
+3,Lucille Bluth,CA,25.00,Wood,10000,5.15,4.75,51500.00,47500.00,24750.00,123750.00
+4,Jackie,WA,9.25,Laminate,400,1.75,2.10,700.00,840.00,142.45,1682.45

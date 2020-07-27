@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/mvc
+          http://www.springframework.org/schema/mvc/spring-mvc.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/aop  
+          http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+ 
+    <!-- Bean definitions go here -->
+    <bean id="userIO" class="com.cam.flooringprogram.ui.UserIOConsoleImpl"/>
+   
+    <bean id="view" class="com.cam.flooringprogram.ui.FlooringProgramView">
+        <constructor-arg ref="userIO"/>
+    </bean>
+   
+    
+    <bean id="backupDao" 
+          class="com.cam.flooringprogram.dao.BackupDaoImpl"/>
+    
+    <bean id="stateDao" 
+          class="com.cam.flooringprogram.dao.StateTaxDaoImpl"/>
+    
+    <bean id="productDao" 
+          class="com.cam.flooringprogram.dao.ProductCostDaoImpl"/>
+   
+    <bean id="auditDao" 
+          class="com.cam.flooringprogram.dao.AuditDaoImpl"/>
+    
+    <bean id="orderDao" 
+          class="com.cam.flooringprogram.dao.OrdersbyDateDaoImpl">
+        <constructor-arg value="OrdersByDate/"/>  
+        <constructor-arg ref="stateDao"/>
+        <constructor-arg ref="productDao"/>  
+    </bean>
+   
+    <bean id="serviceLayer" 
+          class="com.cam.flooringprogram.service.FlooringProgramServiceImpl">
+        <constructor-arg ref="orderDao"/>
+        <constructor-arg ref="stateDao"/>
+        <constructor-arg ref="productDao"/>
+        <constructor-arg ref="backupDao"/>
+        <constructor-arg ref="auditDao"/>           
+    </bean>
+   
+    <bean id="controller" 
+          class="com.cam.flooringprogram.controller.FlooringProgramController">
+        <constructor-arg ref="serviceLayer"/>
+        <constructor-arg ref="view"/>
+    </bean>
+    
+    <bean id="loggingAdvice" class="com.cam.flooringprogram.advice.LoggingAdvice">
+        <constructor-arg ref="auditDao"/>
+    </bean>
+    
+    <aop:config>
+        <aop:aspect ref="loggingAdvice">
+            <aop:after-returning
+                method="createAuditEntry"
+                pointcut="execution(* com.cam.flooringprogram.service.FlooringProgramService.createOrder(..))"
+            />
+            <aop:after-returning
+                method="createAuditEntry"
+                pointcut="execution(* com.cam.flooringprogram.service.FlooringProgramService.editOrder(..))"
+            />
+            <aop:after-returning
+                method="createAuditEntry"
+                pointcut="execution(* com.cam.flooringprogram.service.FlooringProgramService.removeOrder(..))"
+            />
+            <aop:after-returning
+                method="createExportEntry"
+                pointcut="execution(* com.cam.flooringprogram.service.FlooringProgramService.exportData(..))"
+            />
+           
+            <aop:after-throwing
+                method="createFlooringProgramUserValidationExceptionEntry"
+                pointcut="execution(* com.cam.flooringprogram.service.FlooringProgramService.validateCustomerName(..))"
+                throwing="ex"
+            />
+        </aop:aspect>
+    </aop:config>
+   
+</beans>

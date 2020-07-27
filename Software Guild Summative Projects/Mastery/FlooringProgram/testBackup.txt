@@ -1,0 +1,2 @@
+Order Date, Order Number, Customer Name, State, Tax Rate, Product, Area, Material Cost per Sq Ft, Labor Cost per Sq Ft, Material Cost Total, Labor Cost Total, Tax Cost Total, Total Cost
+2021-05-12,1,Twyla,dec,12,fire,12,12,12,12,12,12,12
