@@ -1,0 +1,6 @@
+com/cam/bullsandcows/dao/BullsAndCowsGameDatabaseDaoTest.class
+com/cam/bullsandcows/dao/BullsAndCowsRoundDatabaseDaoTest.class
+com/cam/bullsandcows/service/roundDaoStub.class
+com/cam/bullsandcows/service/BullsAndCowsServiceTest.class
+com/cam/bullsandcows/service/gameDaoStub.class
+com/cam/bullsandcows/dao/BullsAndCowsInMemoryDaoTest.class
